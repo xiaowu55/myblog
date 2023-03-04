@@ -29,12 +29,12 @@ function Hero() {
         <animated.div style={trails[0]} className={styles.hero_text}>
           <Translate id="homepage.hero.greet">你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">愧怍</Translate>
+            <Translate id="homepage.hero.name">Victor</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
           <Translate id="homepage.hero.text">
-            {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
+            {`在这里，我会分享平时遇到的问题以及解决方法`}
           </Translate>
           <br />
           <br />

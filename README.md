@@ -1,15 +1,15 @@
 <h2 align="center">
-愧怍的个人博客
+Victor的个人博客
 </h2><br>
 
 <pre align="center">
- Build with 🦖<a href="https://docusaurus.io/">Docusaurus</a> 
+ Build with 🦖<a href="https://docusaurus.io/">Docusaurus</a>
 </pre>
 
 <p align="center">
 <br>
 <a href="https://kuizuo.cn">🖥 Online Preview</a>
-<br><br> 
+<br><br>
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/kuizuo/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 <a href="https://stackblitz.com/github/kuizuo/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"></a>

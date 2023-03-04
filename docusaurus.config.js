@@ -5,14 +5,14 @@ const announcementBarContent = `<a href="/use-fresh-build-web-applicatioin" targ
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: 'Victor的小站',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'Victor',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: 'Love what you love',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: 'Victor',
       },
       {
         name: 'keywords',
@@ -31,7 +31,7 @@ const config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '编程爱好者, Web开发者, 写过嵌入式，现在主攻ts全栈',
       },
     ],
     docs: {
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: 'Victor',
       logo: {
-        alt: '愧怍',
+        alt: 'Victor',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -189,7 +189,7 @@ const config = {
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT Victor Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -257,7 +257,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: 'Victor的个人博客',
       },
     },
   ],
@@ -301,7 +301,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: 'Victor的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,8 +310,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Victor',
+          copyright: `Copyright © ${new Date().getFullYear()} Victor Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
