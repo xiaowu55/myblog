@@ -8,7 +8,6 @@ keywords:
   - Vue
   - React
   - JavaScript
-  - 逆向
   - HTTP
 ---
 
@@ -17,11 +16,9 @@ keywords:
 - Web
 - 前端
 - 后端
-- Vue
+- Vue(待学习)
 - React
 - JavaScript（TypeScript）
-- 安卓
-- 逆向
 - HTTP
 
 **做到即查即用，能复制粘贴解决的，就绝不百度。**
