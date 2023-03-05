@@ -7,7 +7,7 @@ const announcementBarContent = `<a href="/use-fresh-build-web-applicatioin" targ
 const config = {
   title: 'Victor的小站',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://wujiaze.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Victor',
@@ -153,16 +153,13 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/xiaowu55',
             },
             {
               label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              href: 'https://juejin.cn/user/189536962618270',
             },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
-            },
+            
           ],
         },
         {
@@ -215,7 +212,7 @@ const config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      indexName: 'Victor',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -225,17 +222,11 @@ const config = {
       },
       config: {},
     },
-    matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
-      siteId: '1',
-      phpLoader: 'matomo.php',
-      jsLoader: 'matomo.js',
-    },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-      category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      repo: 'xiaowu55/my-blog',
+      repoId: 'R_kgDOJEzdaQ',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOJEzdac4CUqIW',
       theme: 'light',
       darkTheme: 'dark',
     },
@@ -243,13 +234,10 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      github: 'https://github.com/xiaowu55',
+      juejin: 'https://juejin.cn/user/189536962618270',
+      qq: 'http://wpa.qq.com/msgrd?v=3&uin=156644109&site=qq&menu=yes',
+      zhihu: 'https://www.zhihu.com/people/bei-dao-ju-rong',
     },
   },
   headTags: [
@@ -299,12 +287,12 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/Victor/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: 'Victor的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
-        postsPerPage: 10,
+        postsPerPage: 3,
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),

@@ -108,9 +108,6 @@ export function SocialLinks({ ...prop }) {
       <a href={socials.qq} target="_blank">
         <Icon icon="ri:qq-line" />
       </a>
-      <a href={socials.twitter} target="_blank">
-        <Icon icon="ri:twitter-line" />
-      </a>
       <a href={socials.zhihu} target="_blank">
         <Icon icon="ri:zhihu-line" />
       </a>
