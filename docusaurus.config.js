@@ -222,6 +222,12 @@ const config = {
       },
       config: {},
     },
+    matomo: {
+      matomoUrl: 'https://wujiaze.matomo.cloud/',
+      siteId: '1',
+      phpLoader: 'matomo.php',
+      jsLoader: 'matomo.js',
+    },
     giscus: {
       repo: 'xiaowu55/my-blog',
       repoId: 'R_kgDOJEzdaQ',
