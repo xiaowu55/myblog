@@ -5,7 +5,6 @@ title: 技术笔记简介
 keywords:
   - 前端
   - 后端
-  - Vue
   - React
   - JavaScript
   - HTTP
