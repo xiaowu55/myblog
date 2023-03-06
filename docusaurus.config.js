@@ -7,7 +7,7 @@ const announcementBarContent = `<a href="/use-fresh-build-web-applicatioin" targ
 const config = {
   title: 'Victor的小站',
   titleDelimiter: '-',
-  url: 'https://wujiaze.cn',
+  url: 'http://124.223.84.199/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Victor',
