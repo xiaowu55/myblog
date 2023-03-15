@@ -75,32 +75,6 @@ const config = {
           ],
         },
         {
-          label: '工具',
-          position: 'right',
-          items: [
-            {
-              label: 'API服务',
-              to: 'https://api.kuizuo.cn',
-            },
-            {
-              label: 'JS代码还原',
-              to: 'https://js-de-obfuscator.kuizuo.cn',
-            },
-            {
-              label: 'CyberChef加密',
-              to: 'https://cipher.kuizuo.cn',
-            },
-            {
-              label: 'Transform',
-              to: 'https://transform.kuizuo.cn',
-            },
-            {
-              label: '网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
-          ],
-        },
-        {
           label: '导航',
           position: 'right',
           to: 'resource',
