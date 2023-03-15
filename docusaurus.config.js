@@ -1,5 +1,5 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = '闽ICP备2023002923号-1'
 
 const announcementBarContent = `<a href="/use-fresh-build-web-applicatioin" target="_blank">🍋 使用 Fresh 框架构建 Web 应用</a>`
 
