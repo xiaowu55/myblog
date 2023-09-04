@@ -1,0 +1,93 @@
+## 9-3
+
+### 数组
+
+题号[剑指 Offer 05. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
+
+请实现一个函数，把字符串 `s` 中的每个空格替换成"%20"。
+
+思路 遍历或者内置函数
+
+```ts
+function replaceSpace(s: string): string {
+   return s.split(' ').join('%20')
+}
+```
+
+ 方法二 遍历
+
+```ts
+function replaceSpace(s: string): string {
+    let result = "";
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === " ") {
+            result += "%20";
+        } else {
+            result += s[i];
+        }
+    }
+    return result;
+}
+```
+
+### 链表
+
+题号[剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
+题目 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+
+思路 可以用递归也可以用辅助栈
+
+递归
+
+```ts
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
+function reversePrint(head: ListNode | null): number[] {
+    let result = []
+    recur(head,result)
+    return result
+};
+
+function recur(head:ListNode|null,tmp?:Array<number>):void{
+    if(head===null)return
+    recur(head.next,tmp)
+    tmp.push(head.val)
+}
+```
+
+辅助栈
+
+```ts
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
+function reversePrint(head: ListNode | null): number[] {
+    let result = []
+    while(head){
+        result.push(head.val)
+        head = head.next
+    }
+    return result.reverse()
+};
+```
+
