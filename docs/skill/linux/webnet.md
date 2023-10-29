@@ -3,7 +3,7 @@ id: web-net
 slug: /web-net
 title: 字节训练营计算机网络笔记
 date: 2023-4-20
-authors: Victor
+authors: Viktor
 tags: [linux]
 keywords: [linux]
 ---

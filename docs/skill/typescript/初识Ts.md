@@ -3,7 +3,7 @@ id: start-ts
 slug: /start-ts
 title: Typescript入门
 date: 2023-03-07
-authors: Victor
+authors: Viktor
 tags: [ts]
 keywords: [ts]
 ---

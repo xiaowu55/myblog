@@ -3,7 +3,7 @@ id: css-learn
 slug: /css-learn
 title: 字节训练营css笔记
 date: 2023-4-20
-authors: Victor
+authors: Viktor
 tags: [css]
 keywords: [css]
 ---

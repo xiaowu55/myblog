@@ -1,7 +1,7 @@
 ---
 title: Redux源码学习
 date: 2023-10-23
-authors: Victor
+authors: Viktor
 ---
 # Redux源码学习
 

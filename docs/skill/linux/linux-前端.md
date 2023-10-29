@@ -2,7 +2,7 @@
 slug: /linux-frontend
 title: 字节训练营linux笔记
 date: 2023-4-20
-authors: Victor
+authors: Viktor
 tags: [linux]
 keywords: [linux]
 ---

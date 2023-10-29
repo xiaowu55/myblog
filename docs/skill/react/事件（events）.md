@@ -2,7 +2,7 @@
 slug: react-event
 title: 事件
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react, js]
 keywords: [react, js]
 ---

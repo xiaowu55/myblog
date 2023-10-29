@@ -2,7 +2,7 @@
 slug: react-usecallback
 title: React-useCallback
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react]
 keywords: [react]
 ---

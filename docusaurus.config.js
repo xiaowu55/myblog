@@ -5,12 +5,12 @@ const announcementBarContent = `<a href="/use-fresh-build-web-applicatioin" targ
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Victor的小站',
+  title: 'Viktor的小站',
   titleDelimiter: '-',
   url: 'http://124.223.84.199/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Victor',
+  organizationName: 'Viktor',
   projectName: 'blog',
   tagline: 'Love what you love',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: 'Victor',
+        content: 'Viktor',
       },
       {
         name: 'keywords',
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: 'Victor',
+      title: 'Viktor',
       logo: {
-        alt: 'Victor',
+        alt: 'Viktor',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -160,7 +160,7 @@ const config = {
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT Victor Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT Viktor Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -186,7 +186,7 @@ const config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'Victor',
+      indexName: 'Viktor',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -225,7 +225,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: 'Victor的个人博客',
+        content: 'Viktor的个人博客',
       },
     },
   ],
@@ -267,9 +267,9 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/Victor/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/Viktor/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: 'Victor的个人博客',
+        blogDescription: 'Viktor的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 3,
@@ -278,8 +278,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: 'Victor',
-          copyright: `Copyright © ${new Date().getFullYear()} Victor Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Viktor',
+          copyright: `Copyright © ${new Date().getFullYear()} Viktor Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],

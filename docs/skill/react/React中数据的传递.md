@@ -2,7 +2,7 @@
 slug: react-data
 title: React-数据传递
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react]
 keywords: [react]
 ---

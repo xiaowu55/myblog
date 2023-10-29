@@ -2,7 +2,7 @@
 slug: react-props
 title: React-Props
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react]
 keywords: [react]
 ---

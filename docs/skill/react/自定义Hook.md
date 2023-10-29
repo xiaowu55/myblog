@@ -2,7 +2,7 @@
 slug: reacthook
 title: React自定义Hook
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react]
 keywords: [react]
 ---

@@ -1,5 +1,5 @@
 {
-  "index_name": "Victor",
+  "index_name": "Viktor",
   "start_urls": ["https://wujiaze.cn/"],
   "sitemap_urls": ["https://wujiaze.cn/sitemap.xml"],
   "selectors": {
