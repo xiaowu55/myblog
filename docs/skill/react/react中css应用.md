@@ -2,7 +2,7 @@
 slug: react-css-module
 title: react中css应用
 date: 2022-10-28
-authors: Victor
+authors: Viktor
 tags: [react, css]
 keywords: [react,css]
 ---

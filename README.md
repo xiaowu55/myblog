@@ -1,5 +1,5 @@
 <h2 align="center">
-Victor的个人博客
+Viktor的个人博客
 </h2><br>
 
 <pre align="center">

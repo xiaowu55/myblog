@@ -3,7 +3,7 @@ id: Getting-Started-with-nginx
 slug: /Getting-Started-with-nginx
 title: nginx入门
 date: 2020-09-08
-authors: Victor
+authors: Viktor
 tags: [工具,后端]
 keywords: [工具，后端]
 ---

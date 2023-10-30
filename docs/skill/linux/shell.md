@@ -3,7 +3,7 @@ id: linux-shell
 slug: /linux-shell
 title: 字节训练营shell笔记
 date: 2023-4-20
-authors: Victor
+authors: Viktor
 tags: [linux]
 keywords: [linux]
 ---

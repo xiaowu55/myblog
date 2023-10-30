@@ -3,7 +3,7 @@ id: vite-plugin
 slug: /vite-plugin
 title: Vite相关插件
 date: 2022-04-10
-authors: Victor
+authors: Viktor
 tags: [vue, vite]
 toc_max_heading_level: 2
 ---
