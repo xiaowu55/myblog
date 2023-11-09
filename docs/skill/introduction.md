@@ -17,7 +17,7 @@ keywords:
 - Web
 - 前端
 - 后端
-- Vue(待学习)
+- Vue3
 - React
 - JavaScript（TypeScript）
 - HTTP
